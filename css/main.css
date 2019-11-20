@@ -118,7 +118,7 @@ a {
     width:100%;
     height:80px;
     position:relative;
-    background:rgba(14, 4, 41,0.8);
+    background:rgba(14, 4, 41,0.6);
     z-index:999999;
 }
 .h-logo {
@@ -280,7 +280,12 @@ a {
     right:initial;
     left:10px;
 }
-.c2-02, .c6-01 {
+.c2-02 {
+    display:block;
+    justify-content:initial;
+    align-items:initial;
+}
+.c6-01 {
     display:flex;
     justify-content:center;
     align-items:center;
@@ -289,13 +294,24 @@ a {
     background:#1b1b1b;
     height:100%;
 }
+.c2-01 span {
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
+.c2-02 a {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .c2-02 p {
-    text-align:center;
     font-size:92px;
     color:#ffffff;
+    text-align:center;
     font-family:'Bebas',sans-serif;
 }
 .c2-02 span {
+    display:inline-block;
     font-size:36px;
     color:#ffffff;
     font-family:'Noto Sans KR',sans-serif;
@@ -333,7 +349,7 @@ a {
     display:flex;
     justify-content:flex-end;
     align-items:center;
-    background:rgba(14, 4, 41,0.8);
+    background:rgba(14, 4, 41,0.6);
 }
 .copy {
     color:#ffffff;
